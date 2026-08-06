@@ -3,7 +3,6 @@ go
 if exists (select 1 from sys.databases where name='datawarehouse')
 begin
 	drop database datawarehouse;
-
 end;
 go
 
