@@ -91,7 +91,7 @@ begin
 	end try
 	begin catch
 		print'========================';
-		print'Error Occured During Loading Bronze Layer'
+		print 'Error Occured During Loading Bronze Layer'
 		print 'Error Message:'+error_message();
 		print 'Error Line:'+cast(error_line() as varchar(50));
 		print 'Error Number:'+cast(error_number() as varchar(50));
